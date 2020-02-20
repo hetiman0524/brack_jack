@@ -1,4 +1,4 @@
-require "./blackjack"
+require "./black_jack"
 
 blackjack = Blackjack.new
 
