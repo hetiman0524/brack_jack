@@ -6,7 +6,7 @@ class Player
 
   def first_draw_player(deck)
     # 生成したdeckからdrawメソッドを用いてカードを一枚引いてくる
-    card = Deck.draw
+    card = deck.draw
     # 引いたカードを手札に追加する
     @hands << card
     # 初回は2回なので再度繰り返す
@@ -72,5 +72,5 @@ class Player
       puts " #{i}枚目 ： #{hand.show}"
     end
   end
-  
+
 end
